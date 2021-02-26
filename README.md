@@ -20,9 +20,11 @@ Very experimental, don't use this yet.
 
 ## Differences with malli
 
-- Function names in schemas must be quoted: `int?` => `'int?`
+- Function names in schemas must be quoted: `int?` => `'int?`. This is because
+  arguments and return values to and from pods must be serializable.
 - The `humanize` function has the same signature as `validate`: instead of
-  accepting an error object, it accepts a schema and input.
+  accepting an error object, it accepts a schema and input. The reason for this
+  is that the output of `s/explain` is not serializable as transit yet.
 
 ## Example
 
