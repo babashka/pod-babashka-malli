@@ -1,5 +1,8 @@
 # pod-babashka-malli
 
+WARNING: this is currently a proof of concept, not something you should be using
+due to its experimental nature.
+
 ## API
 
 For malli's documentation, go [here](https://github.com/metosin/malli).
