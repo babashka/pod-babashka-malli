@@ -15,6 +15,12 @@ If you are missing functionality, please create an issue.
 
 Very experimental, don't use this yet.
 
+## Differences with malli
+
+- Function names in schemas must be quoted: `int?` => `'int?`
+- The `humanize` function has the same signature as `validate`: instead of
+  accepting an error object, it accepts a schema and input.
+
 ## Example
 
 This is a future example once the pod is in the pod registry.
