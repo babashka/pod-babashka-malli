@@ -1,5 +1,5 @@
 {:deps {com.cognitect/transit-clj {:mvn/version "1.0.324"}
-        metosin/malli {:mvn/version "0.3.0-SNAPSHOT"}
+        metosin/malli {:mvn/version "0.3.0"}
         nrepl/bencode {:mvn/version "1.1.0"}
         babashka/pods {:git/url "https://github.com/babashka/pods"
                        :sha "22f200ef3006da90971e3bafa794985918b65fea"}}
